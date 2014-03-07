@@ -59,7 +59,8 @@ Cote D'Ivoire,CDI,437,107,IV,662,CI,CIV,384,384,CIV,.*ivoire.*|.*ivory.*,Africa,
 Croatia,CRO,344,98,HR,960,HR,HRV,191,191,HRV,.*croatia.*,Europe,Southern Europe
 Cuba,CUB,40,49,CU,928,CU,CUB,192,192,CUB,.*cuba.*,Americas,Caribbean
 Curacao,,,,UC,354,CW,CUW,531,531,CUW,.*curacao.*,Americas,Caribbean
-Cyprus,CYP,352,50,CY,423,CY,CYP,196,196,CYP,.*cyprus.*,Asia,Western Asia
+Cyprus,CYP,352,50,CY,423,CY,CYP,196,196,CYP,^(?!.*tur.*)cyprus(?!.*tur).*,Asia,Western Asia
+"Cyprus, Turkish",,,,,,,,,,,..*tur.*cyprus|.*cyprus.*tur.*,Asia,Western Asia
 Czech Republic,CZR,316,167,EZ,935,CZ,CZE,203,203,CZE,.*czech.*rep.*|.*rep.*czech.*,Europe,Eastern Europe
 Czechoslovakia,CZE,315,,,934,,,,,,.*czechoslovakia.*,,
 Denmark,DEN,390,54,DA,128,DK,DNK,208,208,DNK,.*denmark.*,Europe,Northern Europe
